@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Readex Pro";
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.container-bf {
+  width: 100%;
+  background: #161412;
+}
+.container-bf .container-bf-content {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-bf .container-bf-content svg {
+  margin-right: 25px;
+}
+.container-bf .container-bf-content h1 {
+  color: #EF7D00;
+  font-size: 32px;
+  margin-top: 40px;
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+.container-bf .container-bf-content p {
+  color: #FFF;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+.container-bf .container-bf-content #countdown {
+  margin-top: 40px;
+}
+.container-bf .container-bf-content #countdown ul {
+  display: flex;
+}
+.container-bf .container-bf-content #countdown ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  letter-spacing: 0.15em;
+  color: #EF7D00;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+.container-bf .container-bf-content #countdown ul li:first-child {
+  margin-left: 0;
+}
+.container-bf .container-bf-content #countdown ul li:last-child {
+  display: none;
+}
+.container-bf .container-bf-content #countdown ul li span {
+  background: #EF7D00;
+  width: 250px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  color: #FFFFFF;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 800px) {
+  .container-bf .container-bf-content #countdown ul li span {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .container-bf .container-bf-content #countdown ul li span {
+    width: 100px;
+    height: 100px;
+  }
+  .container-bf .container-bf-content #countdown ul li span {
+    font-size: 40px;
+  }
+  .container-bf .container-bf-content #countdown ul li {
+    font-size: 12px;
+  }
+}
+
+.container-seo {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 990px) {
+  .container-seo {
+    flex-direction: column;
+  }
+}
+.container-seo .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffe19d;
+  padding: 5%;
+  flex: 1.6;
+  min-height: 600px;
+}
+.container-seo .left h1 {
+  font-size: 32px;
+}
+.container-seo .left .line {
+  width: 10px;
+  height: 5px;
+  background: #161412;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.container-seo .left p {
+  font-size: 18px;
+}
+.container-seo .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 600px;
+  background: #FFF;
+  padding: 5%;
+  flex: 1;
+  color: #000;
+}
+.container-seo .right h2 {
+  max-width: 500px;
+  width: 100%;
+  font-size: 32px;
+}
+.container-seo .right .line {
+  width: 10px;
+  height: 5px;
+  background: #000;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.container-seo .right ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.container-seo .right ul li {
+  width: fit-content;
+  list-style: none;
+  flex: 1 0 fit-content;
+  background: #000;
+  border-radius: 5px;
+  padding: 15px;
+  color: #ffe19d;
+}
+
+.container-bf {
+  margin-top: 0px;
+}
+
+.black__friday__relogio {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.black__friday__relogio span {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.container-news {
+  margin-top: 100px;
+}
+
+.primeiro-saber {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.primeiro-saber h2 {
+  width: 530px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+.primeiro-saber p {
+  width: 323px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+.primeiro-saber #fbits-cadastro-newsletter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 55px;
+}
+.primeiro-saber #fbits-cadastro-newsletter .newsletter-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.primeiro-saber #fbits-cadastro-newsletter .newsletter-box input {
+  width: 790px;
+  height: 72px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background: transparent;
+  text-align: center;
+  margin-top: 15px;
+}
+.primeiro-saber #fbits-cadastro-newsletter .newsletter-box input:first-child {
+  margin-top: 0;
+}
+.primeiro-saber #fbits-cadastro-newsletter .btCadastrar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.primeiro-saber #fbits-cadastro-newsletter .btCadastrar button {
+  width: 790px;
+  height: 72px;
+  background: #3455FF;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+}
+
+.container-cat {
+  background: #3455FF;
+  padding: 65px 0;
+  margin-top: 100px;
+}
+
+.content__cat {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content__cat h3 {
+  width: 530px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.content__cat p {
+  width: 323px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  color: #FFF;
+}
+.content__cat .colecao__content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 55px;
+}
+.content__cat .colecao__content .colecao__box {
+  width: 385px;
+  height: 190px;
+  background: #FFF;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
